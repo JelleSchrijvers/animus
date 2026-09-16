@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jelle\source\repos\animus\build\CMakeFiles\4a82da67bc043d1fa829e5f64e7d0c29\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DFCCC8C1-015D-3B5E-A59F-BE9DFFF6E689}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

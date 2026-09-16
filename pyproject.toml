@@ -1,0 +1,23 @@
+[build-system]
+requires = ["scikit-build-core>=0.9", "pybind11>=2.12"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "animus"
+version = "0.1.0"
+description = "Animus - an AI that learns to move: C++ physics sim + Python learning core + voice I/O"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+]
+
+[project.optional-dependencies]
+learning = ["torch", "gymnasium", "stable-baselines3"]
+voice = ["faster-whisper", "piper-tts", "sounddevice"]
+dev = ["pytest", "cmake", "ninja"]
+
+[tool.scikit-build]
+# Compiled _animus_core.*.so lands directly inside src/animus/
+wheel.packages = ["src/animus"]
+cmake.source-dir = "."

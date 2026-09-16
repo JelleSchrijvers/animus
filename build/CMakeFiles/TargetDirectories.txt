@@ -1,0 +1,6 @@
+C:/Users/jelle/source/repos/animus/build/CMakeFiles/_animus_core.dir
+C:/Users/jelle/source/repos/animus/build/CMakeFiles/INSTALL.dir
+C:/Users/jelle/source/repos/animus/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jelle/source/repos/animus/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/jelle/source/repos/animus/build/src/sim/CMakeFiles/animus_sim.dir
+C:/Users/jelle/source/repos/animus/build/src/sim/CMakeFiles/INSTALL.dir
